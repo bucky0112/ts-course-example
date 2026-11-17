@@ -1,7 +1,10 @@
-// 章 2 p11 示範 & Lab 起點：把 lab/tsconfig.json 的 strict 在 true / false 之間切換，看紅線數量變化
+// 第 2 章 p11 示範／p12 練習的起點：把這個檔案改名成 product.ts
+//   mv lab/product.before.js lab/product.ts
 //
-// 這是一份「很正常」的 JavaScript：能跑、不會當、沒有任何型別標註，只是副檔名改成了 .ts。
-// 它是全課貫穿範例的起點。
+// 這是一份「很正常」的 JavaScript：能跑、不會當、沒有任何型別標註。
+// 改名成 .ts 之後跑 npm run check:lab：
+//   strict: true  → 5 條（第 23、28、28、29 行參數沒標 TS7006；第 34 行 TS2339）
+//   strict: false → 1 條（只剩第 34 行的 product.discount）
 
 const product = {
   name: '經典帆布後背包',
