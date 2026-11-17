@@ -1,9 +1,8 @@
 // 第 3 章練習（p19）：幫商品資料補上標註，但不准用 any
 // 起點是第 2 章 lab 改名後的 product.ts，拿掉了 product.discount 那行
 // 1. 幫商品物件每個欄位補標註
-// 2. 幫 formatPrice 補參數與回傳
+// 2. 兩個函式（formatPrice、findByKeyword）的參數與回傳都要標
 // 3. 把價格改成字串，確認紅線（可以對照 src/exercise.ts）
-// findByKeyword 的參數也有紅線，一起補完，tsc 對這個檔案才會全綠
 
 const product = {
   name: '經典帆布後背包',
