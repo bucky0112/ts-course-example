@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2023",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "moduleDetection": "force",
+    "lib": ["ES2023", "DOM"],
+    "types": [],
+    "rootDir": "src",
+    "outDir": "dist-tsc",
+    "rewriteRelativeImportExtensions": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ch07-extends",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "~7.0.2"
+  }
+}

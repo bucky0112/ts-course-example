@@ -1,0 +1,13 @@
+{
+  "name": "ch02-compile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist-tsc/hello.js",
+    "check:lab": "tsc -p lab"
+  },
+  "devDependencies": {
+    "typescript": "~7.0.2"
+  }
+}

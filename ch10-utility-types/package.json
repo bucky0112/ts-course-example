@@ -1,0 +1,11 @@
+{
+  "name": "ch10-utility-types",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "~7.0.2"
+  }
+}

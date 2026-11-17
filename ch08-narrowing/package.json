@@ -1,0 +1,11 @@
+{
+  "name": "ch08-narrowing",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "~7.0.2"
+  }
+}
