@@ -1,4 +1,4 @@
-// p51 物件形狀的 union：用「有沒有這個欄位」分辨
+// p52 物件形狀的 union：用「有沒有這個欄位」分辨
 
 interface PhysicalItem {
   name: string

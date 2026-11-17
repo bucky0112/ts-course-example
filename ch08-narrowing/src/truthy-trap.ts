@@ -1,4 +1,4 @@
-// p50 陷阱：if (discountPrice) 會把 0 一起排除
+// p51 陷阱：if (discountPrice) 會把 0 一起排除
 
 function salePriceLoose(price: number, discountPrice?: number) {
   if (discountPrice) {
