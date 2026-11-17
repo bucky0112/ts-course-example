@@ -1,0 +1,321 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Essence Mascara Lash Princess",
+      "price": 9.99,
+      "category": "beauty",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp",
+      "brand": "Essence",
+      "rating": 2.56,
+      "discountPercentage": 10.48,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 2,
+      "title": "Eyeshadow Palette with Mirror",
+      "category": "beauty",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/thumbnail.webp",
+      "brand": "Glamour Beauty",
+      "rating": 2.86,
+      "discountPercentage": 18.19,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 3,
+      "title": "Powder Canister",
+      "price": 14.99,
+      "category": "beauty",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/thumbnail.webp",
+      "brand": "Velvet Touch",
+      "rating": 4.64,
+      "discountPercentage": 9.84,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 4,
+      "title": "Red Lipstick",
+      "price": 12.99,
+      "category": "beauty",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/thumbnail.webp",
+      "brand": "Chic Cosmetics",
+      "rating": 4.36,
+      "discountPercentage": 12.16,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 5,
+      "title": "Red Nail Polish",
+      "price": 8.99,
+      "category": "beauty",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/thumbnail.webp",
+      "brand": "Nail Couture",
+      "rating": 4.32,
+      "discountPercentage": 11.44,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 6,
+      "title": "Calvin Klein CK One",
+      "price": 49.99,
+      "category": "fragrances",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/thumbnail.webp",
+      "brand": "Calvin Klein",
+      "rating": 4.37,
+      "discountPercentage": 1.89,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 7,
+      "title": "Chanel Coco Noir Eau De",
+      "price": 129.99,
+      "category": "fragrances",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp",
+      "brand": "Chanel",
+      "rating": 4.26,
+      "discountPercentage": 16.51,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 8,
+      "title": "Dior J'adore",
+      "price": 89.99,
+      "category": "fragrances",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/thumbnail.webp",
+      "brand": "Dior",
+      "rating": 3.8,
+      "discountPercentage": 14.72,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 9,
+      "title": "Dolce Shine Eau de",
+      "price": 69.99,
+      "category": "fragrances",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/thumbnail.webp",
+      "brand": "Dolce & Gabbana",
+      "rating": 3.96,
+      "discountPercentage": 0.62,
+      "availabilityStatus": "Low Stock"
+    },
+    {
+      "id": 10,
+      "title": "Gucci Bloom Eau de",
+      "price": 79.99,
+      "category": "fragrances",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/thumbnail.webp",
+      "brand": "Gucci",
+      "rating": 2.74,
+      "discountPercentage": 14.39,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 11,
+      "title": "Annibale Colombo Bed",
+      "price": 1899.99,
+      "category": "furniture",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/thumbnail.webp",
+      "brand": "Annibale Colombo",
+      "rating": 4.77,
+      "discountPercentage": 8.57,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 12,
+      "title": "Annibale Colombo Sofa",
+      "price": 2499.99,
+      "category": "furniture",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/thumbnail.webp",
+      "brand": "Annibale Colombo",
+      "rating": 3.92,
+      "discountPercentage": 14.4,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 13,
+      "title": "Bedside Table African Cherry",
+      "price": 299.99,
+      "category": "furniture",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/thumbnail.webp",
+      "brand": "Furniture Co.",
+      "rating": 2.87,
+      "discountPercentage": 19.09,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 14,
+      "title": "Knoll Saarinen Executive Conference Chair",
+      "price": 499.99,
+      "category": "furniture",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/thumbnail.webp",
+      "brand": "Knoll",
+      "rating": 4.88,
+      "discountPercentage": 2.01,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 15,
+      "title": "Wooden Bathroom Sink With Mirror",
+      "price": 799.99,
+      "category": "furniture",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/thumbnail.webp",
+      "brand": "Bath Trends",
+      "rating": 3.59,
+      "discountPercentage": 8.8,
+      "availabilityStatus": "Low Stock"
+    },
+    {
+      "id": 16,
+      "title": "Apple",
+      "price": 1.99,
+      "category": "groceries",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/apple/thumbnail.webp",
+      "rating": 4.19,
+      "discountPercentage": 12.62,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 17,
+      "title": "Beef Steak",
+      "price": 12.99,
+      "category": "groceries",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/beef-steak/thumbnail.webp",
+      "rating": 4.47,
+      "discountPercentage": 9.61,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 18,
+      "title": "Cat Food",
+      "price": 8.99,
+      "category": "groceries",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cat-food/thumbnail.webp",
+      "rating": 3.13,
+      "discountPercentage": 9.58,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 19,
+      "title": "Chicken Meat",
+      "price": 9.99,
+      "category": "groceries",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/chicken-meat/thumbnail.webp",
+      "rating": 3.19,
+      "discountPercentage": 13.7,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 20,
+      "title": "Cooking Oil",
+      "price": 4.99,
+      "category": "groceries",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/thumbnail.webp",
+      "rating": 4.8,
+      "discountPercentage": 9.33,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 21,
+      "title": "Cucumber",
+      "price": 1.49,
+      "category": "groceries",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cucumber/thumbnail.webp",
+      "rating": 4.07,
+      "discountPercentage": 0.16,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 22,
+      "title": "Dog Food",
+      "price": 10.99,
+      "category": "groceries",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/dog-food/thumbnail.webp",
+      "rating": 4.55,
+      "discountPercentage": 10.27,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 23,
+      "title": "Eggs",
+      "price": 2.99,
+      "category": "groceries",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/eggs/thumbnail.webp",
+      "rating": 2.53,
+      "discountPercentage": 11.05,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 24,
+      "title": "Fish Steak",
+      "price": 14.99,
+      "category": "groceries",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/fish-steak/thumbnail.webp",
+      "rating": 3.78,
+      "discountPercentage": 4.23,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 25,
+      "title": "Green Bell Pepper",
+      "price": 1.29,
+      "category": "groceries",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/green-bell-pepper/thumbnail.webp",
+      "rating": 3.25,
+      "discountPercentage": 0.16,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 26,
+      "title": "Green Chili Pepper",
+      "price": 0.99,
+      "category": "groceries",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/green-chili-pepper/thumbnail.webp",
+      "rating": 3.66,
+      "discountPercentage": 1,
+      "availabilityStatus": "Low Stock"
+    },
+    {
+      "id": 27,
+      "title": "Honey Jar",
+      "price": 6.99,
+      "category": "groceries",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/honey-jar/thumbnail.webp",
+      "rating": 3.97,
+      "discountPercentage": 14.4,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 28,
+      "title": "Ice Cream",
+      "price": 5.49,
+      "category": "groceries",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/ice-cream/thumbnail.webp",
+      "rating": 3.39,
+      "discountPercentage": 8.69,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 29,
+      "title": "Juice",
+      "price": 3.99,
+      "category": "groceries",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/juice/thumbnail.webp",
+      "rating": 3.94,
+      "discountPercentage": 12.06,
+      "availabilityStatus": "In Stock"
+    },
+    {
+      "id": 30,
+      "title": "Kiwi",
+      "price": 2.49,
+      "category": "groceries",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/kiwi/thumbnail.webp",
+      "rating": 4.93,
+      "discountPercentage": 15.22,
+      "availabilityStatus": "In Stock"
+    }
+  ],
+  "total": 194,
+  "skip": 0,
+  "limit": 30
+}
