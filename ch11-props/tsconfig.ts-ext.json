@@ -1,0 +1,6 @@
+{
+  // p4 的坑：把含 JSX 的檔案存成 .ts。語法錯誤會讓 tsc 停在解析階段、蓋掉其他錯誤，所以另開一份設定單獨檢查
+  "extends": "./tsconfig.json",
+  "include": ["src/jsx-in-ts.ts"],
+  "exclude": []
+}
