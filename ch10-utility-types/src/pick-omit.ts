@@ -1,4 +1,4 @@
-// p65 新增商品時還沒有 id：id 是資料庫給的，送出去的時候根本還沒有
+// p66 新增商品時還沒有 id：id 是資料庫給的，送出去的時候根本還沒有
 
 type Category = 'backpack' | 'sleeve' | 'accessory' | 'pouch'
 

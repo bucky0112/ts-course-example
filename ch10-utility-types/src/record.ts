@@ -1,4 +1,4 @@
-// p66 Record：一張表，鍵是左邊那個，值是右邊那個
+// p67 Record：一張表，鍵是左邊那個，值是右邊那個
 
 type Category = 'backpack' | 'sleeve' | 'accessory' | 'pouch'
 
