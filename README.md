@@ -20,6 +20,9 @@
 | `ch11-props` | 第 11 章 元件到底收什麼（Vite + React） | `npm run dev`、`npm run check` |
 | `ch12-state` | 第 12 章 狀態也要說清楚（Vite + React） | `npm run dev`、`npm run check` |
 | `ch13-events` | 第 13 章 這個事件是哪一種（Vite + React） | `npm run dev`、`npm run check` |
+| `ch14-untrusted-data` | 第 14 章 從網路來的不能直接信（Vite + React） | `npm run dev`、`npm run check` |
+| `ch15-zod` | 第 15 章 在跑的時候擋下來（Vite + React + Zod 4） | `npm run dev`、`npm run check`、`node src/parse-throws.ts` |
+| `ch16-infer` | 第 16 章 型別自己長出來（Vite + React + Zod 4） | `npm run dev`、`npm run check`、`node src/two-definitions.ts` |
 
 第 3 章之後的資料夾結構都一樣：
 
@@ -32,5 +35,6 @@
 - 第 3～7 章一章接一章：每章的 `start.ts` 大致等於上一章的 `solution.ts`（第 4 章調整了商品欄位，`start.ts` 開頭有說明）。
 - 第 8 章起每章練習各自獨立，不接上一章的 `solution.ts`。
 - 第 11～13 章（React）一章接一章：`exercise/start/` 是上一章的 `exercise/solution/`（第 11 章從 JavaScript 版起點開始）。章 11–13 的練習是資料夾（`start/`、`solution/`），不是單一檔案。
+- 第 14～16 章（API 與 Zod）一章接一章：第 14 章是新的起點（資料改從 DummyJSON 來，欄位跟課程的 `Product` 不同），第 15、16 章的 `exercise/start/` 是上一章的 `exercise/solution/`。資料來源改各資料夾 `src/source.ts`（或 `exercise/*/source.ts`）的一行切換，`public/products.json` 是斷網備案。
 
 各章 `npm run check` 會看到的錯誤都是刻意留下的示範，預期數量寫在各章 README。
