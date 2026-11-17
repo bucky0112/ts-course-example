@@ -1,4 +1,4 @@
-// 第 13 章練習起點（p21）：章 12 的解答。搜尋框的 onChange 與「載入商品」按鈕的 onClick 都直接寫在 JSX 裡，
+// 第 13 章練習起點（p21）：章 12 練習完成的樣子。搜尋框的 onChange 與「載入商品」按鈕的 onClick 都直接寫在 JSX 裡，
 // TS 知道 e 的型別；把它們抽成具名函式，就會失去線索（題目見 lab）
 
 import { useRef, useState } from 'react'

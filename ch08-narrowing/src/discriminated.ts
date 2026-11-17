@@ -22,6 +22,6 @@ function submitMessage(state: SubmitState) {
   return '訂單成立，編號 ' + state.orderId
 }
 
-// ── 現場一定要做 ──
+// ── 試試看 ──
 // 在第一個分支（loading）裡打 state.orderId → TS2339
 // 它不讓你在還不知道結果的時候，就去拿結果

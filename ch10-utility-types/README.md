@@ -7,9 +7,8 @@
 | p66 | `src/pick-omit.ts` | `Omit<Product, 'id'>`、`Pick<Product, 'id' \| 'name'>` | `npm run check` |
 | p67 | `src/record.ts` | `Record<Product['category'], Product[]>`；少一個鍵會紅線 | `npm run check` |
 | p68 | `exercise/start.ts` | 練習起點：手寫的 NewProduct 與 ProductUpdate | `npm run check` |
-| p68 | `exercise/solution.ts` | 解答：`Omit` 與 `Partial<NewProduct>`，更新時不能改 id | `npm run check` |
 
-本章練習是獨立的起點，不接上一章的 solution。
+本章練習是獨立的起點，不接上一章的練習。
 
 ## 執行
 

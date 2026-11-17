@@ -1,4 +1,4 @@
-// p12 useState<T>：補上泛型——回收章 9 的 <T>
+// p12 useState<T>：補上泛型——就是章 9 學過的 <T>
 // 補完之後 set 的那兩行都不紅了。
 // 但 selected 可能是 null：直接讀 selected.name → TS18047（下面刻意留著）
 

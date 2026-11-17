@@ -8,9 +8,8 @@
 | p52 | `src/in.ts` | 用 `in` 分辨物件形狀 | `npm run check` |
 | p53 | `src/discriminated.ts` | 可辨識聯集：三種狀態靠 `status` 分辨；loading 分支拿結果會紅線 | `npm run check` |
 | p54 | `exercise/start.ts` | 練習起點：只有 loading 一種狀態 | `npm run check` |
-| p54 | `exercise/solution.ts` | 解答：三種狀態的可辨識聯集 | `npm run check` |
 
-本章練習是獨立的起點，不接上一章的 solution。
+本章練習是獨立的起點，不接上一章的練習。
 
 ## 執行
 

@@ -7,6 +7,6 @@ let productPrice1: number = 1280
 // 沒標
 let productPrice2 = 1280
 
-// ── 被問到才看：為什麼不用 const ──
+// ── 補充：如果改用 const 呢？ ──
 // const 推出來的是 1280，不是 number（const 不能重新賦值，TypeScript 直接記住「它永遠是 1280」）
 const productPrice3 = 1280

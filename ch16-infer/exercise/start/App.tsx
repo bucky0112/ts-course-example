@@ -1,4 +1,4 @@
-// 第 16 章練習起點（p42）：章 15 的解答
+// 第 16 章練習起點（p42）：章 15 練習完成的樣子
 // 現在有兩份定義：schema.ts 一份、types.ts 的 Product interface 一份——把它們收成一份（題目見 lab）
 
 import { useEffect, useState } from 'react'

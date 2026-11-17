@@ -1,4 +1,4 @@
-// p18 常見誤區：忘了 import type { ChangeEvent, MouseEvent } from 'react'
+// p18 常見錯誤：忘了 import type { ChangeEvent, MouseEvent } from 'react'
 // - MouseEvent 撞到瀏覽器內建（DOM）的同名型別，那個不吃泛型 → TS2315「Type 'MouseEvent' is not generic.」
 // - ChangeEvent 在全域找不到 → TS2304「Cannot find name 'ChangeEvent'.」
 

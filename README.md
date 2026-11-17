@@ -27,14 +27,13 @@
 第 3 章之後的資料夾結構都一樣：
 
 - `src/`：每頁簡報的示範程式，會故意留下紅線
-- `exercise/start.ts`：練習題的起點
-- `exercise/solution.ts`：解答，最後的「試試看」註解取消後可以看到對應的錯誤
+- `exercise/start.ts`：練習題的起點（解答由講師在課堂上講解，不放在這裡）
 
 練習銜接：
 
-- 第 3～7 章一章接一章：每章的 `start.ts` 大致等於上一章的 `solution.ts`（第 4 章調整了商品欄位，`start.ts` 開頭有說明）。
-- 第 8 章起每章練習各自獨立，不接上一章的 `solution.ts`。
-- 第 11～13 章（React）一章接一章：`exercise/start/` 是上一章的 `exercise/solution/`（第 11 章從 JavaScript 版起點開始）。章 11–13 的練習是資料夾（`start/`、`solution/`），不是單一檔案。
-- 第 14～16 章（API 與 Zod）一章接一章：第 14 章是新的起點（資料改從 DummyJSON 來，欄位跟課程的 `Product` 不同），第 15、16 章的 `exercise/start/` 是上一章的 `exercise/solution/`。資料來源改各資料夾 `src/source.ts`（或 `exercise/*/source.ts`）的一行切換，`public/products.json` 是斷網備案。
+- 第 3～7 章一章接一章：每章的 `start.ts` 大致等於上一章練習完成的樣子（第 4 章調整了商品欄位，`start.ts` 開頭有說明）。
+- 第 8 章起每章練習各自獨立，不接上一章的練習。
+- 第 11～13 章（React）一章接一章：`exercise/start/` 是上一章練習完成的樣子（第 11 章從 JavaScript 版起點開始），上一章沒做完也能直接從這裡接著做。章 11 起的練習起點是資料夾 `start/`，不是單一檔案。
+- 第 14～16 章（API 與 Zod）一章接一章：第 14 章是新的起點（資料改從 DummyJSON 來，欄位跟課程的 `Product` 不同），第 15、16 章的 `exercise/start/` 是上一章練習完成的樣子。資料來源改各資料夾 `src/source.ts`（或 `exercise/*/source.ts`）的一行切換，`public/products.json` 是斷網備案。
 
 各章 `npm run check` 會看到的錯誤都是刻意留下的示範，預期數量寫在各章 README。

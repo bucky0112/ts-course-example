@@ -7,7 +7,7 @@
 | p9 | `src/hello.ts` → `dist-tsc/hello.js` | 左右對照：型別標註全部不見了。右邊多了分號、縮排變 4 格，是 tsc 的輸出格式 | `npm run build` → `npm start` |
 | p10 | `tsconfig.json` | 只看 `"strict": true` 這一行，其他欄位現在不用管 | — |
 | p11 | `lab/product.before.js`、`lab/tsconfig.json` | 改名成 `.ts` 後有 5 條紅線；`strict` 改 `false` 剩 1 條 | 見下方「p11／p12 步驟」 |
-| p12 | 同上 | 練習：學員自己做一次 p11，記下幾條、各在第幾行 | 同上 |
+| p12 | 同上 | 練習：自己做一次 p11，記下幾條、各在第幾行 | 同上 |
 
 ## 執行
 

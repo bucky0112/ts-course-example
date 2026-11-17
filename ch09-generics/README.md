@@ -7,9 +7,8 @@
 | p59 | `src/generic.ts` | 泛型；沒加限制的版本函式內會紅線（TS2339） | `npm run check` |
 | p60 | `src/constraint.ts` | `T extends { id: number }`；TS2345 與 TS2353 | `npm run check` |
 | p61 | `exercise/start.ts` | 練習起點：商品與訂單各一個查找函式 | `npm run check` |
-| p61 | `exercise/solution.ts` | 解答：一個泛型函式 | `npm run check` |
 
-本章練習是獨立的起點，不接上一章的 solution。
+本章練習是獨立的起點，不接上一章的練習。
 
 ## 執行
 

@@ -1,4 +1,4 @@
-// 章 11 soft bridge 起點碼：p3「ProductCard 回顧」
+// 章 11 起點：p3「ProductCard 回顧」用的 JavaScript 版元件
 // 位置：ts-course-examples/ch11-props/before/App.before.jsx（完整專案裡對應 src/App.jsx）
 //
 // 用途：讓 ProductCard 有地方被使用，p4 的「props 現在是 any」才示範得出來。

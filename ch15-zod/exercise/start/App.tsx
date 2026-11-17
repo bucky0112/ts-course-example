@@ -1,4 +1,4 @@
-// 第 15 章練習起點（p35）：章 14 的解答
+// 第 15 章練習起點（p35）：章 14 練習完成的樣子
 // 把 source.ts 換成 '/products.broken.json'，畫面會當機——這章要讓它改成顯示錯誤訊息（題目見 lab）
 
 import { useEffect, useState } from 'react'

@@ -1,5 +1,5 @@
 // 第 15 章畫面：fetch 之後用 safeParse 驗證
-// 把 src/source.ts 換成 '/products.broken.json'：畫面顯示錯誤訊息，不再當機（p33–34 講師示範）
+// 把 src/source.ts 換成 '/products.broken.json'：畫面顯示錯誤訊息，不再當機（p34）
 
 import { useEffect, useState } from 'react'
 import { z } from 'zod'

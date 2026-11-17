@@ -1,5 +1,5 @@
 // p65 Partial：一行解決
-// 現場一定要做：在 Product 加 weight: number，再到下面 patch 裡打 weight，自動完成會有它
+// 試試看：在 Product 加 weight: number，再到下面 patch 裡打 weight，自動完成會有它
 
 type Category = 'backpack' | 'sleeve' | 'accessory' | 'pouch'
 

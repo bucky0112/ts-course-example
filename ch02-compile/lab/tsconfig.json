@@ -10,7 +10,7 @@
     "noEmit": true,
     // 讓改名前的 product.before.js 也算進來（只收不檢查），tsc 才不會報「找不到檔案」
     "allowJs": true,
-    // p11 的主角。改成 false 看紅線變少，示範完當場改回 true。
+    // p11 的主角。改成 false 看紅線變少，看完記得改回 true。
     // 注意：TypeScript 6 以後不寫 strict 預設就是 true，要關掉必須明寫 false，註解掉沒有用。
     "strict": true,
     "skipLibCheck": true

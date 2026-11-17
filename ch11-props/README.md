@@ -7,7 +7,7 @@
 | p4 誤區 | `src/jsx-in-ts.ts` | JSX 存成 .ts：TS1005、TS1161 語法錯誤 | `npm run check:ts-ext` |
 | p5 | `src/components/ProductCard.tsx`、`src/props-typed.tsx` | props 用 `Pick<Product, …>` 從 `Product` 裁出；字串價格 TS2322、少傳 `image` TS2741、`imgae` 打錯 TS2322（Did you mean 'image'?） | `npm run check` |
 | p6 | `src/optional-default.tsx` | `Partial<Pick<Product, 'onSale'>>` 變可選，再給 `= false` 預設值；可選數字直接用 → TS18048 | `npm run check` |
-| p7 | `exercise/start/`（.jsx）→ `exercise/solution/`（.tsx） | ProductCard、Header、ProductList 補型別；解答 0 錯，拿掉 Header 的 `title` → TS2741（紅在使用端） | `npm run check` |
+| p7 | `exercise/start/`（.jsx） | 練習起點：把 ProductCard、Header、ProductList 改成 .tsx 並補型別，完成後 0 個錯誤 | `npm run check` |
 
 `src/types.ts` 是章 10 的 `Product` 補上 `image`。`src/App.tsx` 用的是 p6 完成版的 `ProductCard`。
 
@@ -19,7 +19,7 @@ npm run dev      # 看畫面（p3）；Vite 開發模式不做型別檢查
 npm run check    # = tsc，只檢查不輸出
 ```
 
-預期：`npm run check` **10 個錯誤**，全部是 `src/` 刻意留下的示範——`props-any.tsx` 6 個（4 × TS7031、2 × TS2741）、`props-typed.tsx` 3 個（TS2322、TS2741、TS2322）、`optional-default.tsx` 1 個（TS18048）。`exercise/` 底下 0 個：`start/` 是 .jsx 不做型別檢查，`solution/` 已補完。
+預期：`npm run check` **10 個錯誤**，全部是 `src/` 刻意留下的示範——`props-any.tsx` 6 個（4 × TS7031、2 × TS2741）、`props-typed.tsx` 3 個（TS2322、TS2741、TS2322）、`optional-default.tsx` 1 個（TS18048）。`exercise/` 底下 0 個：`start/` 是 .jsx 不做型別檢查。
 
 `npm run check:ts-ext` 預期 3 個語法錯誤（2 × TS1005、TS1161）。
 

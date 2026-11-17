@@ -1,5 +1,5 @@
 // p32 寫第一個 schema：結構刻意跟章 14 照 API 寫的 Product 逐欄對應（對照 src/types.ts）
-// brand 沒有列進來：快照裡一半的商品沒有 brand，寫成必填會把好資料也擋掉（常見誤區）
+// brand 沒有列進來：快照裡一半的商品沒有 brand，寫成必填會把好資料也擋掉
 // 沒列的欄位不會報錯，z.object 會直接把它剝掉
 
 import { z } from 'zod'
@@ -12,7 +12,7 @@ export const productSchema = z.object({
   thumbnail: z.string(),
   rating: z.number(),
   discountPercentage: z.number(),
-  availabilityStatus: z.enum(['In Stock', 'Low Stock', 'Out of Stock']), // 回收章 6 的字面量 union
+  availabilityStatus: z.enum(['In Stock', 'Low Stock', 'Out of Stock']), // 章 6 學過的字面量 union
 })
 
 export const productsResponseSchema = z.object({
