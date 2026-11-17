@@ -1,14 +1,15 @@
 # 第 4 章：型別其實不用你講（型別推論）
 
-| 檔案 | 簡報 | 示範什麼 |
-|---|---|---|
-| `src/inference-demo.ts` | p22 | 標註刪掉，型別還在；`const` 會推成 `1280` 而不是 `number` |
-| `src/infer-sources.ts` | p23 | 推得出來的三種情況 |
-| `src/empty-array.ts` | p24 | 空陣列看你先 push 什麼 |
-| `src/empty-array-export.ts` | p24 | export 出去的空陣列變成 `never[]` |
-| `src/any-creeps-in.ts` | p25 | 會紅線的 any（TS7006、TS7034/TS7005）與不會紅線的 any（`JSON.parse`） |
-| `exercise/start.ts` | p26 | 練習起點：每個地方都標滿了 |
-| `exercise/solution.ts` | p26 | 解答：只留三個非標不可的 |
+| 簡報 | 檔案 | 看什麼 | 指令 |
+|---|---|---|---|
+| p22 | `src/inference-demo.ts` | 標註刪掉，型別還在：`productPrice1`、`productPrice2` 懸停都是 `number`（檔案最後的 `const` 被問到才看） | 編輯器懸停 |
+| p23 | `src/infer-sources.ts` | 推得出來的三種情況：初始值、return、已有元素的陣列 | 編輯器懸停 |
+| p24 | `src/empty-array.ts` | 空陣列看你先 push 什麼：`string[]` → `(string \| number)[]` | 編輯器懸停 |
+| p24 | `src/empty-array-export.ts` | export 出去的空陣列變成 `never[]`，push 直接紅線（TS2345） | `npm run check` |
+| p24 | `src/any-creeps-in.ts`（第 1、2 段） | 函式參數（TS7006）、跨函式賦值（TS7034 / TS7005） | `npm run check` |
+| p25 | `src/any-creeps-in.ts` | 會紅線的 any（第 1、2 段）與不會紅線的 any（第 3 段 `JSON.parse`，零紅線） | `npm run check` |
+| p26 | `exercise/start.ts` | 練習起點：每個地方都標滿了 | 編輯器懸停 |
+| p26 | `exercise/solution.ts` | 解答：留下的標註都屬於三類之一（空陣列、跨函式賦值、函式參數） | `npm run check` |
 
 ## 執行
 
@@ -17,4 +18,9 @@ npm install
 npm run check
 ```
 
-`exercise/` 底下兩個檔案都不會有錯誤，錯誤都來自 `src/` 的示範檔。
+預期 4 個錯誤，全部來自 `src/` 的示範檔：
+
+- `src/any-creeps-in.ts`：TS7006、TS7034、TS7005（第 3 段零紅線）
+- `src/empty-array-export.ts`：TS2345
+
+`exercise/` 底下兩個檔案都不會有錯誤。

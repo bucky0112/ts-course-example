@@ -1,4 +1,4 @@
-// p25 any 從哪來：沒有人打過 any，any 還是進來了
+// p24、p25 any 從哪來：沒有人打過 any，any 還是進來了
 
 // 1. 參數沒標 → TS7006
 function formatPrice(price) {
@@ -15,7 +15,8 @@ function showLastViewed() {
 }
 
 // 3. 不會紅線的 any ← 重點
-// JSON.parse 回傳 any：打錯字、呼叫不存在的方法，全部沒有紅線
-const saved = JSON.parse('{"name":"經典帆布後背包","price":1280}')
-saved.naem.toUpperCase()
-saved.whatever()
+// 滑鼠移到 parsed：const parsed: any
+// nmae 拼錯、後面亂接，一條紅線都沒有（實際執行會當場炸掉）
+const raw = '{"name":"經典帆布後背包","price":1280}'
+const parsed = JSON.parse(raw)
+console.log(parsed.nmae.whatever.deeply.wrong)
