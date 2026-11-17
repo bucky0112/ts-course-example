@@ -18,7 +18,8 @@ const products: Product[] = [
   { id: 3, name: '皮革鑰匙圈', price: 350, category: 'accessory', stock: 40 },
 ]
 
-// 這行的紅線是刻意留下的（TS2339），第 8 章再解
-function stockLabel(product: Product) {
-  return product.stock.toFixed(0) + ' 件'
+// 第 4 題：對 stock 直接做數字運算。這行的紅線是刻意留下的（TS2362），第 8 章再解
+// 訊息：算術運算的左側必須是 'any'、'number'、'bigint' 或列舉型別
+function remainingAfterSale(product: Product) {
+  return product.stock - 1
 }
