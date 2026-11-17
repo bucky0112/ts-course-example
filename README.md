@@ -17,6 +17,9 @@
 | `ch08-narrowing` | 第 8 章 先確認是哪一種再動手 | `npm run check` |
 | `ch09-generics` | 第 9 章 寫一次，通吃各種資料 | `npm run check` |
 | `ch10-utility-types` | 第 10 章 別人已經幫你寫好了 | `npm run check` |
+| `ch11-props` | 第 11 章 元件到底收什麼（Vite + React） | `npm run dev`、`npm run check` |
+| `ch12-state` | 第 12 章 狀態也要說清楚（Vite + React） | `npm run dev`、`npm run check` |
+| `ch13-events` | 第 13 章 這個事件是哪一種（Vite + React） | `npm run dev`、`npm run check` |
 
 第 3 章之後的資料夾結構都一樣：
 
@@ -28,5 +31,6 @@
 
 - 第 3～7 章一章接一章：每章的 `start.ts` 大致等於上一章的 `solution.ts`（第 4 章調整了商品欄位，`start.ts` 開頭有說明）。
 - 第 8 章起每章練習各自獨立，不接上一章的 `solution.ts`。
+- 第 11～13 章（React）一章接一章：`exercise/start/` 是上一章的 `exercise/solution/`（第 11 章從 JavaScript 版起點開始）。章 11–13 的練習是資料夾（`start/`、`solution/`），不是單一檔案。
 
 各章 `npm run check` 會看到的錯誤都是刻意留下的示範，預期數量寫在各章 README。
