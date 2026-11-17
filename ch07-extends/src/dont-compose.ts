@@ -1,4 +1,4 @@
-// p45 不該組的時候：B 真的「就是」A 嗎？只是欄位剛好長得像，就不要組
+// p46 不該組的時候：B 真的「就是」A 嗎？只是欄位剛好長得像，就不要組
 
 interface Product {
   id: number
@@ -8,7 +8,7 @@ interface Product {
 
 // 供應商也有 id 和 name，但供應商「不是」一種商品
 // ✗ interface Supplier extends Product { phone: string }
-//   這樣寫的話，Product 加了 price 以外的新欄位，Supplier 也被迫要有
+//   這樣寫的話，Supplier 當下就被迫要有 price；之後 Product 加什麼欄位，Supplier 也得跟著加
 interface Supplier {
   id: number
   name: string

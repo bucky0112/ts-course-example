@@ -1,4 +1,4 @@
-// p44 交集型別：用 & 把兩份各自存在的形狀疊起來
+// p45 交集型別：用 & 把兩份各自存在的形狀疊起來
 
 interface Product {
   readonly id: number
