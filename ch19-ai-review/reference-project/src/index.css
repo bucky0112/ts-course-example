@@ -1,0 +1,10 @@
+body { margin: 0; font-family: system-ui, sans-serif; background: #f6f6f6; }
+.page { max-width: 1000px; margin: 0 auto; padding: 24px; }
+.header { display: flex; justify-content: space-between; align-items: center; }
+.toolbar { display: flex; gap: 8px; margin: 16px 0; }
+.toolbar input { flex: 1; padding: 6px 10px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+.card { background: #fff; border-radius: 8px; padding: 12px; }
+.card img { width: 100%; aspect-ratio: 1; object-fit: cover; cursor: pointer; }
+.detail { background: #fff; border: 2px solid #333; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+.brand { letter-spacing: 0.1em; color: #666; }
