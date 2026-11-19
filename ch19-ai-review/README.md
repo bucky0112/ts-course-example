@@ -2,10 +2,10 @@
 
 | 簡報 | 檔案 | 看什麼 | 指令 |
 |---|---|---|---|
-| p59 | `src/three-kinds.ts` | AI 產碼常見的三類問題：滿地 `any`、型別謊言、過度斷言。三段都是 0 條紅線 | `npm run check` |
-| p60 | `CHECKLIST.md` | 審查清單六項，帶回去自己用 | 打開閱讀 |
-| p61 | `src/ai-suggestion.ts` | 一段 AI 給的建議，原樣保留 | 打開閱讀 |
-| p63 | `reference-project/` | 練習用的參考專案：商品瀏覽頁（Vite + React + Zod） | `npm run dev`、`npm run check` |
+| p17 | `src/three-kinds.ts` | AI 產碼常見的三類問題：滿地 `any`、型別謊言、過度斷言。三段都是 0 條紅線 | `npm run check` |
+| p18 | `CHECKLIST.md` | 審查清單六項，帶回去自己用 | 打開閱讀 |
+| p19 | `src/ai-suggestion.ts` | 一段 AI 給的建議，原樣保留 | 打開閱讀 |
+| p21 | `reference-project/` | 練習用的參考專案：商品瀏覽頁（Vite + React + Zod） | `npm run dev`、`npm run check` |
 
 ## 參考專案
 

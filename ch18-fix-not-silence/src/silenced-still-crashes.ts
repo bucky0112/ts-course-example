@@ -1,4 +1,4 @@
-// p53 消失不等於解決：三種掩蓋版本都餵同一份壞資料
+// p11 消失不等於解決：三種掩蓋版本都餵同一份壞資料
 // 執行：node src/silenced-still-crashes.ts
 
 import { responseText, type Product } from './product.ts'

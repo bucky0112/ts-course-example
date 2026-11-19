@@ -1,5 +1,5 @@
-// p52 三種讓紅線消失的方法：any、as、@ts-ignore
-// 三種都會讓紅線立刻不見，但資料一樣是壞的（p53 實際跑一次）
+// p10 三種讓紅線消失的方法：any、as、@ts-ignore
+// 三種都會讓紅線立刻不見，但資料一樣是壞的（p11 實際跑一次）
 
 import { responseText, type Product } from './product.ts'
 

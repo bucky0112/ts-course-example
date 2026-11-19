@@ -1,4 +1,4 @@
-// p47 長訊息怎麼讀：從第一行往下讀，看到 property 'X' 就停
+// p5 長訊息怎麼讀：從第一行往下讀，看到 property 'X' 就停
 
 import type { Product } from './product'
 

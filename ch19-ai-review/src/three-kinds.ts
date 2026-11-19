@@ -1,4 +1,4 @@
-// p59 AI 產碼常見的三類問題：三段都是 0 條紅線
+// p17 AI 產碼常見的三類問題：三段都是 0 條紅線
 
 interface Product {
   id: number

@@ -1,4 +1,4 @@
-// p45 一則錯誤訊息的結構：位置、實際、期望、來源
+// p3 一則錯誤訊息的結構：位置、實際、期望、來源
 // 跑 npm run check，對照終端機輸出：
 //   src/anatomy.ts:13:3              ← 位置（檔案:行:欄）
 //   Type 'string' is not assignable to type 'number'.

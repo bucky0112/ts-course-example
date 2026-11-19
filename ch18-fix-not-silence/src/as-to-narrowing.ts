@@ -1,4 +1,4 @@
-// p55 把掩蓋改回修正：as 改成 typeof 窄化（第 8 章）
+// p13 把掩蓋改回修正：as 改成 typeof 窄化（第 8 章）
 
 type Stock = number | 'unknown'
 
