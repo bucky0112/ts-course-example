@@ -26,6 +26,7 @@
 | `ch17-reading-errors` | 第 17 章 紅線到底在說什麼 | `npm run check` |
 | `ch18-fix-not-silence` | 第 18 章 不要用 any 蓋掉（Zod 4） | `npm run check`、`node src/silenced-still-crashes.ts` |
 | `ch19-ai-review` | 第 19 章 自己審一遍（參考專案：Vite + React + Zod 4） | `npm run dev`、`npm run check` |
+| `ch20-custom-hooks` | 第 20 章 把邏輯抽成 custom hook（Vite + React + Zod 4） | `npm run dev`、`npm run check` |
 
 第 3 章之後的資料夾結構都一樣：
 
@@ -39,5 +40,6 @@
 - 第 11～13 章（React）一章接一章：`exercise/start/` 是上一章練習完成的樣子（第 11 章從 JavaScript 版起點開始），上一章沒做完也能直接從這裡接著做。章 11 起的練習起點是資料夾 `start/`，不是單一檔案。
 - 第 14～16 章（API 與 Zod）一章接一章：第 14 章是新的起點（資料改從 DummyJSON 來，欄位跟課程的 `Product` 不同），第 15、16 章的 `exercise/start/` 是上一章練習完成的樣子。資料來源改各資料夾 `src/source.ts`（或 `exercise/*/source.ts`）的一行切換，`public/products.json` 是斷網備案。
 - 第 17、18 章練習各自獨立。第 19 章沒有 `exercise/`，練習是用 `CHECKLIST.md` 審 `reference-project/`（或你自己的作品）。
+- 第 20 章（React 補充：custom hook）練習獨立，起點是章 16 的畫面加上搜尋框。
 
 各章 `npm run check` 會看到的錯誤都是刻意留下的示範，預期數量寫在各章 README。
